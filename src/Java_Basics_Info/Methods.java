@@ -21,8 +21,16 @@ public class Methods
 
 	public static void main(String[] args) 
 	{
-		
+		System.out.println("Methods.main()");
+		Demo.greet();
 
 	}
 
+}
+class Demo
+{
+	public static void greet()
+	{
+		System.out.println("Good Evening To All !!!!!");
+	}
 }
