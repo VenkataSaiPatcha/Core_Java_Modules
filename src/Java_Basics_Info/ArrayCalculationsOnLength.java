@@ -15,7 +15,7 @@ public class ArrayCalculationsOnLength
 		else if(args.length==1)
 		{
 			int num=Integer.parseInt(args[0]);
-			System.out.println("Cube os the "+num+" is :"+(num*num*num));
+			System.out.println("Cube of the "+num+" is :"+(num*num*num));
 		}
 		else if(args.length==2)
 		{
