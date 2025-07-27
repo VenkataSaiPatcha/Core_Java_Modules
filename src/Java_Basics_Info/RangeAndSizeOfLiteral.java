@@ -36,6 +36,11 @@ public class RangeAndSizeOfLiteral
 		System.out.println(" min: " + Double.MIN_VALUE);
 		System.out.println(" max: " + Double.MAX_VALUE);
 		System.out.println(" size :"+Double.SIZE);
+		
+		//Range and size of Character literal
+		System.out.println(Character.MIN_VALUE); 
+		System.out.println(Character.MAX_VALUE); 
+		System.out.println(Character.SIZE); 
 	}
 
 }
