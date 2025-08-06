@@ -4,6 +4,8 @@ class Demo05
 	static
 	{
 		i=100;
+		//System.out.println(i);
+		System.out.println(Demo05.i);
 	}
 	static int i;
 }
