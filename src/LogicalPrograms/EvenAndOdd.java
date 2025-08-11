@@ -23,6 +23,10 @@ public class EvenAndOdd
 			System.out.println("Odd");
 		}
 		
+		int z=-100;
+		System.out.println(z);
+		z=-z;
+		System.out.println(z);
 	}
 
 }
