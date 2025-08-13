@@ -11,7 +11,7 @@ class Sample02
 		x=300;
 	}
 }
-public class BlankFinalField 
+public class BlankFinalFieldDemo01
 {
 	public static void main(String[] args) 
 	{
