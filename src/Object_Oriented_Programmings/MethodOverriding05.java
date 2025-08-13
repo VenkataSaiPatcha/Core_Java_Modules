@@ -22,6 +22,7 @@ public class MethodOverriding05
 	{
 		RBI r = new SBI();
 		System.out.println(r.ifscCode);
+		System.out.println(r.ifscCode);
 		System.out.println(r.loan());
 		
 	}
