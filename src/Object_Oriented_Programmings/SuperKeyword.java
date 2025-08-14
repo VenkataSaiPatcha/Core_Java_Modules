@@ -1,4 +1,5 @@
 package Object_Oriented_Programmings;
+
 class Shape
 {
 	protected int x;   // 10
