@@ -8,7 +8,7 @@ public class TwoDArray
 	{
 		int arr[][]= {{1,2},{3,4}};
 		
-		for(int i=0;i<arr.length;i++)
+		for(int i=0;i<arr.length;i++)   // approach -1
 		{
 			for(int j=0;j<arr.length;j++)
 			{
@@ -16,7 +16,18 @@ public class TwoDArray
 			}
 			System.out.println();
 		}
+		System.out.println("------------------------------");
+		for(int[] ar:arr)
+		{
+			for(int x: ar)
+			{
+				System.out.print(x+" ");  // 2 approach
+			}
+			System.out.println();
+		}
 		
+		System.out.println("------------------------------");
+		System.out.println(Arrays.deepToString(arr));
 	}
 
 }
