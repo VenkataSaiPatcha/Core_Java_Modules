@@ -45,9 +45,17 @@ public class PolymorphicDemo03
 	}
 	public static void animalRoar(Animal03 animal)
 	{
-		Lion03 l1 = (Lion03)animal;
-		l1.roar();
-		l1.roam();
+		if(animal instanceof Lion03)
+		{
+			Lion03 l1 = (Lion03)animal;
+			l1.roar();
+			l1.roam();
+		}
+		else
+		{
+			System.out.println(animal.toString()+" not an insatnce");
+		}
+		
 	}
 
 }
