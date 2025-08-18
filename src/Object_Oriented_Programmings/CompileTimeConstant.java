@@ -11,7 +11,7 @@ class Alpha012
 }
 class Beta012
 {
-	public static final int value=200;// compile time constant
+	public static final int value=100;// compile time constant
 	static
 	{
 		System.out.println("static Block");
