@@ -1,5 +1,5 @@
 package Object_Oriented_Programmings;
-
+@FunctionalInterface
 interface Computer
 {
 	void laptop();
