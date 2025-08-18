@@ -15,7 +15,7 @@ public class AmbiquityIssue08
 	public static void main(String[] args) 
 	{
 		Ambiquity08 a1 = new Ambiquity08();
-		a1.accept(10);
+		//a1.accept(10);
 		
 	}
 
