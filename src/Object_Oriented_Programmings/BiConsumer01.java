@@ -17,7 +17,10 @@ public class BiConsumer01
 		System.out.println("Enter str value");
 		String str =sc.next();
 		sc.close();
+		
+		// Values after the update (note that the original values are unchanged)
 			b1.accept(x, str);
+			System.out.println("Original values :"+" x value :"+x+" str value is :"+str);
 	}
 
 }
