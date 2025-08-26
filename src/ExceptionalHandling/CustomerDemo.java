@@ -26,6 +26,7 @@ public class CustomerDemo
 		}
 		System.out.println("Thank you client, have a nice day !!!");
 		sc.close();
+	
 	}
 
 }
