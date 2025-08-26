@@ -1,6 +1,7 @@
 package Array_Concepts;
 
 import java.lang.reflect.Array;
+import java.util.Arrays;
 
 public class ArrayClassConcept 
 {
@@ -35,6 +36,33 @@ public class ArrayClassConcept
 		
 //		short s[]= {12,13,14,15,16,17,18};
 //		System.out.println(Array.getShort(s, 0));
+	
+//		Object arr = java.lang.reflect.Array.newInstance(String.class, 3);
+//		String[] strArr = (String[]) arr;
+//		System.out.println(strArr.length);
+		
+//		Object arr = java.lang.reflect.Array.newInstance(int.class, 2,2);
+//		 int var[][]= (int[][])arr;
+//		System.out.print	(Arrays.deepToString(var));
+		
+//		int[] arr = {10,20,30,40,50,60};
+//		System.out.println(Arrays.toString(arr));
+//		Array.setInt(arr, 0, 100);
+//		System.out.println(Arrays.toString(arr));
+		
+//		Object arr[] = {"Hello",12,34.5,7.0,'A',new Object(),"Sai"};
+//		System.out.println(Arrays.toString(arr));
+//		Array.set(arr, 0, "James Goslee");
+//		System.out.println(Arrays.toString(arr));
+		
+		int []arr = (int[]) Array.newInstance(int.class, 10);   // 1D
+		System.out.println(Arrays.toString(arr));
+		
+		Integer arr1[][] = (Integer[][]) Array.newInstance(Integer.class, 5,5); // 2D
+		System.out.println(Arrays.deepToString(arr1));
+		
+		Integer arr2[][][][] = (Integer[][][][]) Array.newInstance(Integer.class, 4,3,2,1);
+		System.out.println(Arrays.deepToString(arr2));
 	}
 
 }
