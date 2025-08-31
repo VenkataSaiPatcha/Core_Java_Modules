@@ -2,6 +2,9 @@ package ExceptionalHandling;
 
 public class VariableInitialization 
 {
+	
+	
+	
 	public static void main(String[] args) 
 	{
 		System.out.println("main method started");
@@ -18,6 +21,8 @@ public class VariableInitialization
 			e.printStackTrace();
 		}
 		System.out.println("main method ended");
+		
+		
 	}
 
 }
