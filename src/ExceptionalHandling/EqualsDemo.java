@@ -1,5 +1,7 @@
 package ExceptionalHandling;
 
+import java.util.Objects;
+
 class Employee extends Object 
 {
 	private int employeeId;
@@ -9,7 +11,25 @@ class Employee extends Object
 	{
 		this.employeeId = employeeId;
 		this.employeeName = employeeName;
-	}	
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(employeeId, employeeName);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Employee other = (Employee) obj;
+		return employeeId == other.employeeId && Objects.equals(employeeName, other.employeeName);
+	}
+	
 }
 public class EqualsDemo 
 {
