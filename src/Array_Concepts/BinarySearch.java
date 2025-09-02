@@ -30,8 +30,22 @@ public class BinarySearch
 //		float f[] = {0.1f,0.2f,0.3f,0.4f,0.5f,0.6f,0.7f};
 //		System.out.println(Arrays.binarySearch(f,(float)0.2));
 		
-		float f[] = {0.1f,0.2f,0.3f,0.4f,0.5f,0.6f,0.7f};
-		System.out.println(Arrays.binarySearch(f,2,6,(float)0.6));
+//		float f[] = {0.1f,0.2f,0.3f,0.4f,0.5f,0.6f,0.7f};
+//		System.out.println(Arrays.binarySearch(f,2,6,(float)0.6));
+		
+//		int i[] = {1,2,3,4,5,6,7,8,9};
+//		System.out.println(Arrays.binarySearch(i, 5));
+//		System.out.println(Arrays.binarySearch(i, 3,8,8));
+		
+//		long l[] = {10L,20L,30L,40L,50L,60L,70L};
+//		System.out.println(Arrays.binarySearch(l,40));
+//		System.out.println(Arrays.binarySearch(l, 2,6,50));
+		
+//		Object obj[] = {10,20.5,"Hello",'S',12.5f};
+//		System.out.println(Arrays.binarySearch(obj, "Hello"));
+//		System.out.println(Arrays.binarySearch(obj,2,4,'S'));
+		
+		
 	}
 
 }
