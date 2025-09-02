@@ -27,7 +27,7 @@ public class ExceptionDemo
 		System.out.println("Is :"+t1.getName()+" thread is started :"+t1.isAlive());
 		System.out.println("Is :"+t2.getName()+" thread is started :"+t2.isAlive());
 		
-		
+		System.out.println(10/0);
 		System.out.println("Main method ended");
 	}
 
