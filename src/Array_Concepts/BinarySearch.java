@@ -14,6 +14,9 @@ public class BinarySearch
 //		byte b[] = {10,20,30,40,50,60,70,80};
 //		System.out.println(Arrays.binarySearch(b, 0,4,(byte)50));
 		
+//		char[] ch = {'A','E','F','I','Z','M','O','P'};
+//		Arrays.sort(ch);
+//		System.out.println(Arrays.binarySearch(ch, 'E'));
 		
 	}
 
