@@ -1,6 +1,7 @@
 package Array_Concepts;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class BinarySearch
 {
@@ -45,6 +46,21 @@ public class BinarySearch
 //		System.out.println(Arrays.binarySearch(obj, "Hello"));
 //		System.out.println(Arrays.binarySearch(obj,2,4,'S'));
 		
+//		short s[] = {10,20,30,40,50,60,128};
+//		System.out.println(Arrays.binarySearch(s,0,6,(short)60));
+//		System.out.println(Arrays.binarySearch(s, (short)10));
+		
+//		String str[] = {"Apple","Banana","Mango","Orange"};
+//		Arrays.sort(str, Comparator.naturalOrder());
+//		System.out.println(Arrays.toString(str));
+//		
+//		System.out.println(Arrays.binarySearch(str,0,str.length,"Mango",Comparator.naturalOrder()));
+//		System.out.println(Arrays.binarySearch(str,1,str.length,"Orange",Comparator.naturalOrder()));
+//		System.out.println(Arrays.binarySearch(str, 0,str.length,"Aeroplane",Comparator.naturalOrder()));
+	
+		String []str = {"Zebra","Mamel","Horse","Ant","Eagle"};
+		Arrays.sort(str,Comparator.naturalOrder());
+		System.out.println(Arrays.binarySearch(str,"Ant",Comparator.naturalOrder()));
 		
 	}
 
