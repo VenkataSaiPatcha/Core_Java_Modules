@@ -62,10 +62,13 @@ public class BinarySearch
 //		Arrays.sort(str,Comparator.naturalOrder());
 //		System.out.println(Arrays.binarySearch(str,"Ant",Comparator.naturalOrder()));
 	
-		boolean[] arr = {true,false,true,false,false};
-			boolean b[] = Arrays.copyOf(arr, 3);
-				System.out.println(Arrays.toString(b));
+//		boolean[] arr = {true,false,true,false,false};
+//			boolean b[] = Arrays.copyOf(arr, 3);
+//				System.out.println(Arrays.toString(b));
 				
+			byte b[] = {121,122,123,124,125,126,127,120,119};
+				byte bb[]=Arrays.copyOf(b, 10);
+			System.out.println(Arrays.toString(bb));
 	}
 
 }
