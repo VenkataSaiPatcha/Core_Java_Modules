@@ -58,10 +58,14 @@ public class BinarySearch
 //		System.out.println(Arrays.binarySearch(str,1,str.length,"Orange",Comparator.naturalOrder()));
 //		System.out.println(Arrays.binarySearch(str, 0,str.length,"Aeroplane",Comparator.naturalOrder()));
 	
-		String []str = {"Zebra","Mamel","Horse","Ant","Eagle"};
-		Arrays.sort(str,Comparator.naturalOrder());
-		System.out.println(Arrays.binarySearch(str,"Ant",Comparator.naturalOrder()));
-		
+//		String []str = {"Zebra","Mamel","Horse","Ant","Eagle"};
+//		Arrays.sort(str,Comparator.naturalOrder());
+//		System.out.println(Arrays.binarySearch(str,"Ant",Comparator.naturalOrder()));
+	
+		boolean[] arr = {true,false,true,false,false};
+			boolean b[] = Arrays.copyOf(arr, 3);
+				System.out.println(Arrays.toString(b));
+				
 	}
 
 }
