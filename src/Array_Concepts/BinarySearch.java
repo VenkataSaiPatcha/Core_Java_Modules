@@ -18,8 +18,11 @@ public class BinarySearch
 //		Arrays.sort(ch);
 //		System.out.println(Arrays.binarySearch(ch, 'E'));
 		
-		char ch[] = {'A','B','C','D','E','F','G','H'};
-		System.out.println(Arrays.binarySearch(ch, 2, 4,'D'));
+//		char ch[] = {'A','B','C','D','E','F','G','H'};
+//		System.out.println(Arrays.binarySearch(ch, 2, 4,'D'));
+		
+		double d[] = {10.0,10.2,10.3,10.4,10.5,10.6,10.7};
+		System.out.println(Arrays.binarySearch(d, 10.5));
 	}
 
 }
