@@ -16,6 +16,7 @@ public class CheckingThreadIsAlive
 		MyThreadClass thread = new MyThreadClass();
 		System.out.println("Is thread is alive :"+thread.isAlive());
 		thread.start();
+		//thread.start();  // java.lang.IllegalThreadStateException
 		System.out.println("Is thread is alive :"+thread.isAlive());
 		System.out.println("Main method ended");
 	}
