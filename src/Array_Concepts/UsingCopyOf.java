@@ -35,11 +35,17 @@ public class UsingCopyOf
 //		short ss[] = Arrays.copyOf(s, 6);
 //		System.out.println(Arrays.toString(ss));
 		
-		String [] arr = {"Patcha","Venkata","Sai"};
-		Object []obj = Arrays.copyOf(arr, 5,Object[].class);
-		System.out.println(Arrays.toString(obj));
-	
-	
+//		String [] arr = {"Patcha","Venkata","Sai"};
+//		Object []obj = Arrays.copyOf(arr, 5,Object[].class);
+//		System.out.println(Arrays.toString(obj));
+		
+//		Integer []i = {10,20,30,40,50};
+//		Number[] n= Arrays.copyOf(i, 7,Number[].class);
+//		System.out.println(Arrays.toString(n));
+		
+		//------------------------copyOfRange()----------------
+		
+		
 	}
 
 }
