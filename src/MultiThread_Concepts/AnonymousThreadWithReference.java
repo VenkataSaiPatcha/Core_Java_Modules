@@ -13,6 +13,7 @@ public class AnonymousThreadWithReference
 					System.out.println(name+" thread is running inside the ananomous class");
 				}
 				};
+				t1.setName("child");
 				t1.start();
 			System.out.println(Thread.currentThread().getName()
 					+" thread is running");
