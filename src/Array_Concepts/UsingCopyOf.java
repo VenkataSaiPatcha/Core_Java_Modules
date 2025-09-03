@@ -45,7 +45,43 @@ public class UsingCopyOf
 		
 		//------------------------copyOfRange()----------------
 		
+//		byte[] b = {121,122,123,124,125,126,127};
+//		byte bb[] = Arrays.copyOfRange(b,1,6);
+//		System.out.println(Arrays.toString(bb));
 		
+//		char c[] = {'A','B','C','D','E'};
+//		char cc[] = Arrays.copyOfRange(c, 2, 10);
+//		System.out.println(Arrays.toString(cc));
+		
+//		double d[] = {1.0,1.1,1.2,1.3,1.4,1.5};
+//		double dd[] = Arrays.copyOfRange(d,3,3);
+//		System.out.println(Arrays.toString(dd));
+		
+//		float f[] = {1.1f,1.2f,1.3f,1.4f};
+//		float ff[] = Arrays.copyOfRange(f, 3, 5);
+//		System.out.println(Arrays.toString(ff));
+		
+//		int [] i= {1,2,3,4};
+//		int ii[] = Arrays.copyOfRange(i, 0, i.length);
+//		System.out.println(Arrays.toString(ii));
+		
+//		String s[] = {"Patcha","Venkata","sai"};
+//		Object obj[] =	Arrays.copyOfRange(s, 0, s.length,Object[].class);
+//		System.out.println(Arrays.toString(obj));
+		
+		//------------------ deepEqual() method------------
+//		String s1[] = {"patcha","venkata","sai"};
+//		String s2[] = {"patcha","venkata","sai"};
+//		System.out.println(Arrays.deepEquals(s1, s2));
+//		System.out.println(s1.equals(s2));
+//		System.out.println(Arrays.equals(s1, s2));
+		
+		String s1[][] = {{"patcha","venkata","ram"},{"sai"}};
+		String s2[][] = {{"patcha","venkata","ram"},{"sai"}};
+		
+		System.out.println(Arrays.deepEquals(s1, s2));
+		System.out.println(s1.equals(s2));
+		System.out.println(Arrays.equals(s1, s2));
 	}
 
 }
