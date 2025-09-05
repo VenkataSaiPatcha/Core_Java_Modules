@@ -60,14 +60,19 @@ public class ArrayClassMethods
 		
 		// ---- parallelSetAll() method -- us
 		
-		int []arr1 = new int[5];
-		Arrays.setAll(arr1, i->i*i);
-		System.out.println(Arrays.toString(arr1));
+//		int []arr1 = new int[5];
+//		Arrays.setAll(arr1, i->i*i);
+//		System.out.println(Arrays.toString(arr1));
+//		
+//		int []arr = new int[5];
+//		Arrays.parallelSetAll(arr, i->i*2);
+//		System.out.println(Arrays.toString(arr));
 		
-		int []arr = new int[5];
-		Arrays.parallelSetAll(arr, i->i*2);
+		// --- parallelSort() method----
+		
+		int arr[] = {100000000,99999999,5,2,3,50000000,9,10,1000000,1};
+		Arrays.parallelSort(arr);
 		System.out.println(Arrays.toString(arr));
-		
 		
 		
 		
