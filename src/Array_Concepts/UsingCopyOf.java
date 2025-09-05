@@ -76,12 +76,20 @@ public class UsingCopyOf
 //		System.out.println(s1.equals(s2));
 //		System.out.println(Arrays.equals(s1, s2));
 		
-		String s1[][] = {{"patcha","venkata","ram"},{"sai"}};
-		String s2[][] = {{"patcha","venkata","ram"},{"sai"}};
+//		String s1[][] = {{"patcha","venkata","ram"},{"sai"}};
+//		String s2[][] = {{"patcha","venkata","ram"},{"sai"}};
+//		
+//		System.out.println(Arrays.deepEquals(s1, s2));
+//		System.out.println(s1.equals(s2));
+//		System.out.println(Arrays.equals(s1, s2));
 		
-		System.out.println(Arrays.deepEquals(s1, s2));
-		System.out.println(s1.equals(s2));
-		System.out.println(Arrays.equals(s1, s2));
+		//---------------deepHashcode()----------------------
+		String str[] = {"Patcha","Venkata","Sai"};
+		String s1[] = {"Sai"};
+		String s2 = "Sai";
+		System.out.println(Arrays.deepHashCode(str));
+		System.out.println(Arrays.deepHashCode(s1));
+		System.out.println(s2.hashCode());
 	}
 
 }
