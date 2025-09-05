@@ -58,6 +58,18 @@ public class ArrayClassMethods
 //		Arrays.parallelPrefix(arr,2,5,(x,y)->x+y);
 //		System.out.println(Arrays.toString(arr));
 		
+		// ---- parallelSetAll() method -- us
+		
+		int []arr1 = new int[5];
+		Arrays.setAll(arr1, i->i*i);
+		System.out.println(Arrays.toString(arr1));
+		
+		int []arr = new int[5];
+		Arrays.parallelSetAll(arr, i->i*2);
+		System.out.println(Arrays.toString(arr));
+		
+		
+		
 		
 	}
 
