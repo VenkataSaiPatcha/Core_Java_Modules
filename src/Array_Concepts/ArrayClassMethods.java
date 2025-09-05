@@ -70,11 +70,13 @@ public class ArrayClassMethods
 		
 		// --- parallelSort() method----
 		
+//		int arr[] = {100000000,99999999,5,2,3,50000000,9,10,1000000,1};
+//		Arrays.parallelSort(arr);
+//		System.out.println(Arrays.toString(arr));
+		
 		int arr[] = {100000000,99999999,5,2,3,50000000,9,10,1000000,1};
-		Arrays.parallelSort(arr);
+		Arrays.parallelSort(arr,3,10);
 		System.out.println(Arrays.toString(arr));
-		
-		
 		
 	}
 
