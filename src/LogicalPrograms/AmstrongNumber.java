@@ -10,29 +10,32 @@ public class AmstrongNumber
 		System.out.println("Enter value");
 		int num =sc.nextInt();
 		AmstrongNumber a1 = new AmstrongNumber();
-			System.out.println(a1.isAmstrongNumber(num));
+			int value = a1.isAmstrongNumber(num);
+			System.out.println("value :"+value);
+			if(value==num)
+			{
+				System.out.println("Amstrong number");
+			}
+			else
+			{
+				System.out.println("Not an amstrong");
+			}
 	}
 	public int isAmstrongNumber(int n)
 	{
 		int x = n;
-		System.out.println(x);
-		System.out.println(n);
-		int sum = 0;
+		int sum = 0,r=0;
 		if(x<=0)
 			return 0;
 		int power = String.valueOf(x).length();
-		System.out.println(power);
 		while(x!=0)
 		{
-		sum=(int) (sum*10+Math.pow(x%10, power));
+			r=x%10;
+			sum=sum+(int)Math.pow(r, power);
 		
 		x = x/10;
 		}
-		if(n==sum)
-//			System.out.println(n);
-//		System.out.println(sum);
-			return sum;
-		return power;
+		return sum;
 		
 	}
 
