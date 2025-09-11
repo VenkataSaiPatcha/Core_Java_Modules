@@ -4,7 +4,7 @@ public class PrimeNumber
 {
 	public static void main(String[] args) 
 	{
-		int num = 10;
+		int num = 2;
 		boolean prime = true;
 		if(num<=1)
 		{
@@ -16,6 +16,7 @@ public class PrimeNumber
 			{
 				if(num%i==0)
 					prime = false;
+				System.out.println(i);
 				break;
 			}
 		}
