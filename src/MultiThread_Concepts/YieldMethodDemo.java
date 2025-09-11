@@ -24,7 +24,8 @@ public class YieldMethodDemo
 		
 		Thread t1 = new Thread(test,"child - 1");
 		Thread t2 = new Thread(test,"child - 2");
-		
+		System.out.println(t1.getPriority());
+		System.out.println(t2.getPriority());
 		t1.start();
 		t2.start();
 		
