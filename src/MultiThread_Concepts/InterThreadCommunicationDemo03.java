@@ -46,7 +46,7 @@ public class InterThreadCommunicationDemo03
 		{
 			System.out.println("Waiting for child thread to complete");
 			System.out.println("Lock is released");
-			it.wait();
+			it.wait(1000);
 			
 			System.out.println("Main thread wake up");
 			System.out.println(it.getFinalValue());
