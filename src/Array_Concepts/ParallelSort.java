@@ -26,6 +26,14 @@ public class ParallelSort
 //		int arr1[] = new int[size];
 //		System.out.println(arr1.length);
 //		System.out.println(Arrays.toString(arr1));
+		
+//		Integer [] arr = {5,10,1,6,2,115,56};
+//		Arrays.parallelSort(arr,2,arr.length-1);
+//		System.out.println(Arrays.toString(arr));
+		
+		String str[] = {"sai","ashok","amith","venky","rajesh"};
+		Arrays.parallelSort(str,2,str.length-1,Comparator.naturalOrder());
+		System.out.println(Arrays.toString(str));
 	}
 
 }
