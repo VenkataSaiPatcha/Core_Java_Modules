@@ -16,8 +16,12 @@ public class ParallelSort01
 //		Arrays.setAll(d, (i)-> i*i);
 //		System.out.println(Arrays.toString(d));
 		
-		int arr[] = new int[5];
-		Arrays.setAll(arr,(i)->i*i);
+//		int arr[] = new int[5];
+//		Arrays.setAll(arr,(i)->i*i);
+//		System.out.println(Arrays.toString(arr));
+		
+		long arr[]  = new long[5];
+		Arrays.setAll(arr, (i)->i*i);
 		System.out.println(Arrays.toString(arr));
 	}
 
