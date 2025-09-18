@@ -20,9 +20,27 @@ public class ParallelSort01
 //		Arrays.setAll(arr,(i)->i*i);
 //		System.out.println(Arrays.toString(arr));
 		
-		long arr[]  = new long[5];
-		Arrays.setAll(arr, (i)->i*i);
-		System.out.println(Arrays.toString(arr));
+//		long arr[]  = new long[5];
+//		Arrays.setAll(arr, (i)->i*i);
+//		System.out.println(Arrays.toString(arr));
+		
+		// febonacci series using setAll() method
+//		long [] ln = new long[5];
+//		Arrays.setAll(ln, i->(i==0 || i==1) ?1:ln[i-1]+ln[i-2]);
+//		System.out.println(Arrays.toString(ln));
+//		
+//		long []arr = new long[5] ;
+//		Arrays.setAll(arr, i->i*1000L);
+//		System.out.println(Arrays.toString(arr));
+		
+//		int arr[]  = new int[10];
+//		Arrays.setAll(arr, i->(i==0 || i==1) ?1:arr[i-1]+arr[i-2]);
+//		Arrays.toString(arr);
+//		System.out.println(Arrays.toString(arr));
+	
+	
 	}
+	
+	
 
 }
