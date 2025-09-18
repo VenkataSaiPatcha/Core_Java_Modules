@@ -27,7 +27,8 @@ public class InterruptedThreadDemo01
 		{
 			e.printStackTrace();
 		}
-	//	t1.interrupt();
+		t1.interrupt();
+		System.out.println(t1.isInterrupted());
 	}
 	
 
